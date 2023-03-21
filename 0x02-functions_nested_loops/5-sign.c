@@ -1,36 +1,28 @@
 #include "main.h"
 
 /**
- * print_sign - functions that prints signs
+ * print_sign - print sign of number
+ * @n: number to be tested
  *
- * @n: the int to check
- *
- * Return: 1, 0 and -1
+ * Description: Using an if else statement, determines
+ * the sign of given number
+ * Return: 1 if greater than 0, 0 if 0, -1 if less
  */
-
-
 int print_sign(int n)
 {
 	if (n > 0)
 	{
 		_putchar('+');
-		_putchar(',');
-		_putchar(' ');
 		return (1);
-
 	}
 	else if (n == 0)
 	{
 		_putchar('0');
-		_putchar(',');
-		_putchar(' ');
 		return (0);
 	}
 	else
 	{
 		_putchar('-');
-		_putchar(',');
-		_putchar(' ');
 		return (-1);
 	}
 }
