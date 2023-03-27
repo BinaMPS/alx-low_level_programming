@@ -6,7 +6,7 @@
  * @n: is the number of elements OF the array to be printed
  * Return: a and n inputs
  */
-void print array(int *a, int n)
+void print_array(int *a, int n)
 {
 	int i;
 
@@ -14,9 +14,9 @@ void print array(int *a, int n)
 	{
 		printf("%d, ", a[i]);
 	}
-	        if (i == (n - 1))
+		if (i == (n - 1))
 		{
 			printf("%d", a[n - 1]);
 		}
-		        printf("\n");
+			printf("\n");
 }
